@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Consulting Firm</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        .hero {
+            text-align: center;
+            padding: 3rem;
+            background: #f4f4f4;
+        }
+        .services, .contact {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .services h2, .contact h2 {
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Consulting Firm</h1>
+        <p>Helping you achieve success in recruitment and beyond!</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Welcome to Our Consulting Firm</h2>
+        <p>We specialize in delivering top-notch recruitment and consulting services tailored to your needs.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Recruitment Consulting</li>
+            <li>Talent Acquisition Strategy</li>
+            <li>Corporate and Contract Hiring</li>
+            <li>Executive Search</li>
+        </ul>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Your Consulting Firm. All rights reserved.</p>
+    </footer>
+</body>
+</html>
